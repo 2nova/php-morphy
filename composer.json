@@ -1,0 +1,25 @@
+{
+    "name": "2nova/php-morphy",
+    "description": "Wrapper for phpMorphy http://phpmorphy.sourceforge.net/",
+    "license": "MIT",
+    "keywords": ["phpmorphy"],
+    "version": "0.1.1-dev",
+    "authors": [
+        {
+            "name": "Ivan Nikitin",
+            "email": "vantoozz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {  
+        "classmap": [
+            "vendor/phpmorphy/src/common.php"
+        ],      
+        "psr-0": {
+            "Novanova\\PHPMorphy": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
