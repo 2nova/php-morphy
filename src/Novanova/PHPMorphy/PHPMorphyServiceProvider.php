@@ -4,7 +4,7 @@ namespace Novanova\PHPMorphy;
 
 use Illuminate\Support\ServiceProvider;
 
-class MorphyServiceProvider extends ServiceProvider
+class PHPMorphyServiceProvider extends ServiceProvider
 {
 
     /**
